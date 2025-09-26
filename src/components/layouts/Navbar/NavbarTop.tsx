@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const NavbarTop = () => {
-  return (
-    <div className='bg-black text-white text-center py-2 text-sm'>
-      asd2
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default React.memo(NavbarTop)
+export default React.memo(NavbarTop);

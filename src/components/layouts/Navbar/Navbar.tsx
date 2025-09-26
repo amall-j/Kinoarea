@@ -1,6 +1,6 @@
 import React from "react";
 import NavbarTop from "./NavbarTop";
-import "@/assets/scss/_header.scss";
+import "../../../assets/scss/_header.scss";
 
 const Navbar = () => {
   return (
