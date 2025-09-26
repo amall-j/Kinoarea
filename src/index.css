@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+}
+
+body {
+}
+
+.wrapper {
+  max-width: 82.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0.9375rem;
+}

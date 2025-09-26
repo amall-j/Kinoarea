@@ -1,0 +1,42 @@
+:root {
+  --bg-body: #fafafc;
+  --bg-white: #fff;
+  --bg-primary-gradient: linear-gradient(267.65deg, #00a3ff, #1c00ff);
+  --bg-green-gradient: linear-gradient(84deg, #019741, #7cb927);
+  --link: #0054ff;
+  --disabled: #3c3c3c80;
+  --bg-light: #0000000a;
+}
+
+.dark {
+  --bg-body: #000;
+  --bg-white: #000;
+  --bg-primary-gradient: #fff;
+  --bg-green-gradient: #fff;
+  --link: #0054ff;
+  --disabled: #3c3c3c80;
+  --bg-light: #ffffff1a;
+}
+
+body {
+  background-color: var(--bg-body);
+}
+
+.bg-theme-white {
+  background-color: var(--bg-white);
+}
+.bg-theme-light {
+  background-color: var(--bg-light);
+}
+.bg-theme-primary-gradient {
+  background: var(--bg-primary-gradient);
+}
+.text-theme-white {
+  color: var(--bg-white);
+}
+.text-theme-link {
+  color: var(--link);
+}
+.text-theme-disabled {
+  color: var(--disabled);
+}
