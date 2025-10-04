@@ -1,3 +1,3 @@
-import { Navbar, NavbarTop, Footer } from "./layouts";
+import { Navbar, Footer } from "./layouts";
 
-export { Navbar, NavbarTop, Footer };
+export { Navbar, Footer };
