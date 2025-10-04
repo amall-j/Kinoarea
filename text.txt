@@ -1,0 +1,49 @@
+adult: false
+→ Bu film 18+ kattalar uchunmi yoki yo‘qligini bildiradi. false bo‘lsa — odatiy tomoshabinlar uchun.
+
+backdrop_path: "/gqby0RhyehP3uRrzmdyUZ0CgPPe.jpg"
+→ Filmning orqa fon rasmi (backdrop). To‘liq link qilish uchun:
+https://image.tmdb.org/t/p/w500/gqby0RhyehP3uRrzmdyUZ0CgPPe.jpg
+
+genre_ids: [28, 878, 12]
+→ Bu filmga tegishli janr ID’lari. Masalan:
+
+28 = Action
+
+878 = Science Fiction
+
+12 = Adventure
+
+id: 27205
+→ TMDB’dagi filmning unikal ID raqami. Keyin tafsilotlar olish uchun shu ID ishlatiladi.
+
+original_language: "en"
+→ Filmning asl tili (English).
+
+original_title: "Inception"
+→ Filmning asl nomi.
+
+overview: "Cobb, a skilled thief..."
+→ Filmning qisqacha syujeti / tavsifi.
+
+popularity: 24.1411
+→ TMDB tizimidagi mashhurlik ko‘rsatkichi (raqam qanchalik katta bo‘lsa, film shunchalik ommabop).
+
+poster_path: "/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg"
+→ Filmning poster rasmi (kino afishasi). To‘liq link:
+https://image.tmdb.org/t/p/w500/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg
+
+release_date: "2010-07-15"
+→ Film chiqqan sana (2010-yil 15-iyul).
+
+title: "Inception"
+→ Filmning sarlavhasi (tilga qarab o‘zgarishi mumkin).
+
+video: false
+→ Bu obyekt video fayl (treyler yoki clip) emasligini bildiradi. Agar true bo‘lsa, bu “video asset” degani.
+
+vote_average: 8.37
+→ Foydalanuvchilar reytingi (10 ballik tizimda).
+
+vote_count: 38026
+→ Nechta odam ovoz berganini ko‘rsatadi.

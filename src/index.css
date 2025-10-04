@@ -1,14 +1,189 @@
 @import "tailwindcss";
 
+@theme {
+  --font-qanelas: "Qanelas", sans-serif;
+  --color-blue: #3657cb;
+  --color-green: #89CB36h;
+  --color-white_green: #f2f60f;
+  --color-red: #cb3f36;
+  --color-gray: #949597;
+  --color-amber: #cb6c36;
+}
+
+.blue_hover:hover {
+  background-color: #3657cba6;
+  opacity: 65%;
+}
+
 :root {
+  /* Container Widths */
+  --container-mobile: 368px; /* 425px viewport */
+  --container-tablet: 660px; /* 768px viewport */
+  --container-laptop: 851px; /* 1000px viewport */
+  --container-desktop: 1430px; /* 1920px viewport */
+
+  /* Font Sizes */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+  --text-5xl: 48px;
+
+  /* Spacing */
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
 }
 
-body {
-}
-
-.wrapper {
-  max-width: 82.5rem;
+.container-cinema {
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 0.9375rem;
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
+}
+
+/* Mobile: 425px */
+@media (min-width: 425px) {
+  .container-cinema {
+    max-width: var(--container-mobile);
+  }
+}
+
+/* Tablet: 768px */
+@media (min-width: 768px) {
+  .container-cinema {
+    max-width: var(--container-tablet);
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+  }
+}
+
+/* Laptop: 1000px */
+@media (min-width: 1000px) {
+  .container-cinema {
+    max-width: var(--container-laptop);
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+  }
+}
+
+/* Desktop: 1920px */
+@media (min-width: 1920px) {
+  .container-cinema {
+    max-width: var(--container-desktop);
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+  }
+}
+
+/* ============================================
+   TEXT SIZES (Responsive)
+   ============================================ */
+.text-responsive-sm {
+  font-size: var(--text-xs);
+}
+
+.text-responsive-base {
+  font-size: var(--text-sm);
+}
+
+.text-responsive-lg {
+  font-size: var(--text-sm);
+}
+
+.text-responsive-xl {
+  font-size: var(--text-base);
+}
+
+.text-responsive-2xl {
+  font-size: var(--text-lg);
+}
+
+.text-responsive-3xl {
+  font-size: var(--text-xl);
+}
+
+.text-responsive-4xl {
+  font-size: var(--text-2xl);
+}
+
+/* Tablet: 768px */
+@media (min-width: 768px) {
+  .text-responsive-base {
+    font-size: var(--text-base);
+  }
+  .text-responsive-lg {
+    font-size: var(--text-base);
+  }
+  .text-responsive-xl {
+    font-size: var(--text-lg);
+  }
+  .text-responsive-2xl {
+    font-size: var(--text-xl);
+  }
+  .text-responsive-3xl {
+    font-size: var(--text-2xl);
+  }
+  .text-responsive-4xl {
+    font-size: var(--text-3xl);
+  }
+}
+
+/* Desktop: 1000px+ */
+@media (min-width: 1000px) {
+  .text-responsive-lg {
+    font-size: var(--text-lg);
+  }
+  .text-responsive-xl {
+    font-size: var(--text-xl);
+  }
+  .text-responsive-2xl {
+    font-size: var(--text-2xl);
+  }
+  .text-responsive-3xl {
+    font-size: var(--text-3xl);
+  }
+  .text-responsive-4xl {
+    font-size: var(--text-4xl);
+  }
+}
+
+/* ============================================
+   SPACING UTILITIES
+   ============================================ */
+.section-spacing {
+  padding-top: var(--space-2xl);
+  padding-bottom: var(--space-2xl);
+}
+
+@media (min-width: 768px) {
+  .section-spacing {
+    padding-top: var(--space-3xl);
+    padding-bottom: var(--space-3xl);
+  }
+}
+
+.card-gap {
+  gap: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .card-gap {
+    gap: var(--space-lg);
+  }
+}
+
+@media (min-width: 1000px) {
+  .card-gap {
+    gap: var(--space-xl);
+  }
 }
